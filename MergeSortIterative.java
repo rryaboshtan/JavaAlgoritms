@@ -37,13 +37,6 @@ public class MergeSortIterative {
         int src1End = Math.min(src1Start + size, src1.length);
         int src2End = Math.min(src2Start + size, src2.length);
 
-        // if (src1Start + size > src1.length) {
-        //     for (int i = src1Start; i < src1End; i++) {
-        //         dest[i] = src1[i];
-        //     }
-        //     return;
-        // }
-
         int iterationCount = src1End - src1Start + src2End - src2Start;
 
         for (int i = destStart; i < destStart + iterationCount; i++) {

@@ -1,4 +1,4 @@
-public class MergeSort {
+public class MergeSortIterative {
     public static void main(String[] args) {
         int[] array = new int[] { 1, 15, 78, 89, 9, 12, 12546, 8, 879, 16, 54, 1 };
 
